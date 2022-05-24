@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EA2FF1BC-9C91-4B89-8527-C03AE31F3956"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6A7B7F6-5E72-48FB-BFCB-12DE9F71AE4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task1Tests/ServiceLayer/WebservicesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6A7B7F6-5E72-48FB-BFCB-12DE9F71AE4E - 87b2d1e4ea1269c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task1Tests.WebServicesTest.test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue() -&gt; ()"
+                  moduleName = "Task1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Task1/Task1Tests/ServiceLayer/WebservicesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1113">
+               </Location>
+               <Location
+                  uuid = "F6A7B7F6-5E72-48FB-BFCB-12DE9F71AE4E - 87b2d1e4ea1269c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task1Tests.WebServicesTest.test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue() -&gt; ()"
+                  moduleName = "Task1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Task1/Task1Tests/ServiceLayer/WebservicesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "912">
+               </Location>
+               <Location
+                  uuid = "F6A7B7F6-5E72-48FB-BFCB-12DE9F71AE4E - 87b2d1e4ea126929"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task1Tests.WebServicesTest.test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue() -&gt; ()"
+                  moduleName = "Task1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Task1/Task1Tests/ServiceLayer/WebservicesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "099CEACA-B5F4-484D-AD21-D5BA947E0CCC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task1Tests/ServiceLayer/WebservicesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22061281-0702-4979-B009-2D41BBA5ABC9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task1Tests/ServiceLayer/WebservicesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "22061281-0702-4979-B009-2D41BBA5ABC9 - 77962e832720cd34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Task1Tests.User) -&gt; () in Task1Tests.WebServicesTest.test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue() -&gt; ()"
+                  moduleName = "Task1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Task1/Task1Tests/ServiceLayer/WebservicesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "22061281-0702-4979-B009-2D41BBA5ABC9 - 77962e832720cd34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Task1Tests.User) -&gt; () in Task1Tests.WebServicesTest.test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue() -&gt; ()"
+                  moduleName = "Task1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Task1/Task1Tests/ServiceLayer/WebservicesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "399">
+               </Location>
+               <Location
+                  uuid = "22061281-0702-4979-B009-2D41BBA5ABC9 - f15b2d329539b9cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Task1Tests.UserResponse) -&gt; () in Task1Tests.WebServicesTest.test_WebService_CheckIfServerviceHaveRequest_ShouldReturnTrue() -&gt; ()"
+                  moduleName = "Task1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Task1/Task1Tests/ServiceLayer/WebservicesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "257">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

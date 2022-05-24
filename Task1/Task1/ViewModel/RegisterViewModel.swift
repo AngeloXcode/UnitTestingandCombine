@@ -10,9 +10,22 @@ import SwiftUI
 import Combine
 
 class RegisterViewModel : ObservableObject {
+    @Published var data : UserResponse!
+    private var cancellables = Set<AnyCancellable>()
+    let apiClient : APIClient
     
-    init(){
-        
+    init(apiClient : APIClient){
+        self.apiClient = apiClient
     }
     
+    private func createUser(){
+        self.apiClient.createUser()
+            .sink { _ in
+                
+            } receiveValue: { data in
+                self.data = data
+            }.store(in: &cancellables)
+        
+        
+    }
 }

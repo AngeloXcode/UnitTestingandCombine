@@ -19,7 +19,7 @@ enum APIError : Error {
         case .invalidRequest:
             return "NetworkErrorRequest"
         case .invalidResponse:
-            return "NetworkErrorRequest"
+            return "NetworkErrorResponse"
         case .jsonDecodingError(let error):
             return error
         case .dataLoadingError(let statusCode):
@@ -27,5 +27,11 @@ enum APIError : Error {
         case .unreachable:
             return "unreachable"
         }
+    }
+}
+
+extension APIError : Equatable {
+    static func == (lhs: APIError, rhs: APIError) -> Bool {
+        return lhs.localizedDescription == rhs.localizedDescription
     }
 }

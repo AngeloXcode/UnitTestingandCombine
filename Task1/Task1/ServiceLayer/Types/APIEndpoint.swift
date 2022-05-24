@@ -20,6 +20,8 @@ enum APIEndpoint{
         return Environment.apiBaseURL.appendingPathComponent(self.path)
     }
     
+   
+    
     var request : URLRequest{
         var request = URLRequest(url: fullPath)
         request.addHeaders(headers)
@@ -48,8 +50,23 @@ enum APIEndpoint{
             return .post
         }
     }
+    
+    mutating func returnValueFullPath() -> URL{
+        return fullPath
+    }
+    
+    mutating func returnHttpMethodsValue() -> HTTPMethod{
+        return httpMethods
+    }
 
 }
+
+extension APIEndpoint : Equatable {
+    static func == (lhs: APIEndpoint, rhs: APIEndpoint) -> Bool {
+        return lhs.fullPath == rhs.fullPath
+    }
+}
+
 
 fileprivate extension URLRequest{
     

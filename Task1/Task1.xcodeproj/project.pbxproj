@@ -11,8 +11,13 @@
 		04328C15283CAFCA0035F68F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C14283CAFCA0035F68F /* Environment.swift */; };
 		04328C17283CB12B0035F68F /* TypAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C16283CB12B0035F68F /* TypAliases.swift */; };
 		04328C19283CB2110035F68F /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C18283CB2110035F68F /* HTTPMethods.swift */; };
-		04328C1B283CB3010035F68F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C1A283CB3010035F68F /* APIClient.swift */; };
 		04328C1D283CB61A0035F68F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C1C283CB61A0035F68F /* APIError.swift */; };
+		04328C1E283CCA0D0035F68F /* TypAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C16283CB12B0035F68F /* TypAliases.swift */; };
+		04328C1F283CCA0D0035F68F /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C11283CAEFD0035F68F /* APIEndpoint.swift */; };
+		04328C20283CCA0D0035F68F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C1C283CB61A0035F68F /* APIError.swift */; };
+		04328C21283CCA0D0035F68F /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C18283CB2110035F68F /* HTTPMethods.swift */; };
+		04328C22283CCA260035F68F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C14283CAFCA0035F68F /* Environment.swift */; };
+		04328C25283CD1350035F68F /* APIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04328C24283CD1350035F68F /* APIErrorTests.swift */; };
 		043AC824283AC3B9004733D9 /* Task1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AC823283AC3B9004733D9 /* Task1App.swift */; };
 		043AC826283AC3B9004733D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AC825283AC3B9004733D9 /* ContentView.swift */; };
 		043AC828283AC3BB004733D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043AC827283AC3BB004733D9 /* Assets.xcassets */; };
@@ -24,13 +29,16 @@
 		0481347A283B65BF00D3E26A /* RegisterViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04813479283B65BF00D3E26A /* RegisterViewModelTest.swift */; };
 		04813481283B69B900D3E26A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04813480283B69B900D3E26A /* WebService.swift */; };
 		04813482283B69B900D3E26A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04813480283B69B900D3E26A /* WebService.swift */; };
-		04813491283B92BF00D3E26A /* MockEndPointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04813490283B92BF00D3E26A /* MockEndPointTest.swift */; };
 		04813499283BA74E00D3E26A /* MockRequestParamter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04813498283BA74E00D3E26A /* MockRequestParamter.swift */; };
 		0481349A283BA74E00D3E26A /* MockRequestParamter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04813498283BA74E00D3E26A /* MockRequestParamter.swift */; };
+		04B120F7283CE22000CFD460 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B120F6283CE22000CFD460 /* APIClient.swift */; };
+		04B120F8283CE22000CFD460 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B120F6283CE22000CFD460 /* APIClient.swift */; };
+		04B120FA283CE45A00CFD460 /* MoclWebserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B120F9283CE45A00CFD460 /* MoclWebserviceTests.swift */; };
 		04C1A81F283BF86A00B8E1EB /* WebservicesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A81E283BF86A00B8E1EB /* WebservicesTest.swift */; };
 		04C1A821283C04FA00B8E1EB /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A820283C04F900B8E1EB /* UserResponse.swift */; };
 		04C1A822283C074D00B8E1EB /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A820283C04F900B8E1EB /* UserResponse.swift */; };
 		04C1A824283C075B00B8E1EB /* UserResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A823283C075B00B8E1EB /* UserResponseTest.swift */; };
+		04F6A64F283CD60E0049C098 /* APIEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6A64E283CD60E0049C098 /* APIEndpointTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +56,8 @@
 		04328C14283CAFCA0035F68F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		04328C16283CB12B0035F68F /* TypAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypAliases.swift; sourceTree = "<group>"; };
 		04328C18283CB2110035F68F /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
-		04328C1A283CB3010035F68F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		04328C1C283CB61A0035F68F /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		04328C24283CD1350035F68F /* APIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorTests.swift; sourceTree = "<group>"; };
 		043AC820283AC3B9004733D9 /* Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043AC823283AC3B9004733D9 /* Task1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1App.swift; sourceTree = "<group>"; };
 		043AC825283AC3B9004733D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,11 +71,13 @@
 		04813479283B65BF00D3E26A /* RegisterViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModelTest.swift; sourceTree = "<group>"; };
 		0481347B283B665C00D3E26A /* Task1Tests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task1Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		04813480283B69B900D3E26A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		04813490283B92BF00D3E26A /* MockEndPointTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEndPointTest.swift; sourceTree = "<group>"; };
 		04813498283BA74E00D3E26A /* MockRequestParamter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestParamter.swift; sourceTree = "<group>"; };
+		04B120F6283CE22000CFD460 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		04B120F9283CE45A00CFD460 /* MoclWebserviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoclWebserviceTests.swift; sourceTree = "<group>"; };
 		04C1A81E283BF86A00B8E1EB /* WebservicesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebservicesTest.swift; sourceTree = "<group>"; };
 		04C1A820283C04F900B8E1EB /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		04C1A823283C075B00B8E1EB /* UserResponseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseTest.swift; sourceTree = "<group>"; };
+		04F6A64E283CD60E0049C098 /* APIEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,7 @@
 				04328C16283CB12B0035F68F /* TypAliases.swift */,
 				04328C18283CB2110035F68F /* HTTPMethods.swift */,
 				04328C1C283CB61A0035F68F /* APIError.swift */,
+				04B120F6283CE22000CFD460 /* APIClient.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -105,6 +116,15 @@
 				04328C14283CAFCA0035F68F /* Environment.swift */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		04328C23283CD1220035F68F /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				04328C24283CD1350035F68F /* APIErrorTests.swift */,
+				04F6A64E283CD60E0049C098 /* APIEndpointTests.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 		043AC817283AC3B9004733D9 = {
@@ -207,7 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				04328C10283CAE810035F68F /* Types */,
-				04328C1A283CB3010035F68F /* APIClient.swift */,
 				04813480283B69B900D3E26A /* WebService.swift */,
 			);
 			path = ServiceLayer;
@@ -216,8 +235,9 @@
 		0481347D283B689200D3E26A /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
-				04813490283B92BF00D3E26A /* MockEndPointTest.swift */,
+				04328C23283CD1220035F68F /* Types */,
 				04C1A81E283BF86A00B8E1EB /* WebservicesTest.swift */,
+				04B120F9283CE45A00CFD460 /* MoclWebserviceTests.swift */,
 			);
 			path = ServiceLayer;
 			sourceTree = "<group>";
@@ -348,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04813481283B69B900D3E26A /* WebService.swift in Sources */,
-				04328C1B283CB3010035F68F /* APIClient.swift in Sources */,
+				04B120F7283CE22000CFD460 /* APIClient.swift in Sources */,
 				043AC855283AC774004733D9 /* ValidationViewModel.swift in Sources */,
 				04813499283BA74E00D3E26A /* MockRequestParamter.swift in Sources */,
 				04813478283B659500D3E26A /* RegisterViewModel.swift in Sources */,
@@ -369,13 +389,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C1A81F283BF86A00B8E1EB /* WebservicesTest.swift in Sources */,
+				04B120FA283CE45A00CFD460 /* MoclWebserviceTests.swift in Sources */,
+				04F6A64F283CD60E0049C098 /* APIEndpointTests.swift in Sources */,
+				04328C22283CCA260035F68F /* Environment.swift in Sources */,
+				04328C1F283CCA0D0035F68F /* APIEndpoint.swift in Sources */,
+				04328C25283CD1350035F68F /* APIErrorTests.swift in Sources */,
 				043AC852283AC5BB004733D9 /* ValidationViewModelTests.swift in Sources */,
+				04328C20283CCA0D0035F68F /* APIError.swift in Sources */,
+				04328C1E283CCA0D0035F68F /* TypAliases.swift in Sources */,
+				04B120F8283CE22000CFD460 /* APIClient.swift in Sources */,
 				0481347A283B65BF00D3E26A /* RegisterViewModelTest.swift in Sources */,
 				0481349A283BA74E00D3E26A /* MockRequestParamter.swift in Sources */,
 				04813482283B69B900D3E26A /* WebService.swift in Sources */,
-				04813491283B92BF00D3E26A /* MockEndPointTest.swift in Sources */,
 				04C1A822283C074D00B8E1EB /* UserResponse.swift in Sources */,
 				04C1A824283C075B00B8E1EB /* UserResponseTest.swift in Sources */,
+				04328C21283CCA0D0035F68F /* HTTPMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,7 @@ class RegisterViewModel : ObservableObject {
     }
     
     private func createUser(){
-        self.apiClient.createUser()
+        self.apiClient.createUser(username: "Angelo", password: "123", email: "email.com")
             .sink { _ in
                 
             } receiveValue: { data in

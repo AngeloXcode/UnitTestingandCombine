@@ -9,11 +9,10 @@ import XCTest
 
 class APIEndpointTests: XCTestCase {
     
-    private var apiEndPoint : APIEndpoint!
+    private var apiEndPoint : APIEndpoint! = Constants.createUer
     override func setUp(){
         // Put setup code here. This method is called before the invocation of each test method in the class.
         super.setUp()
-        apiEndPoint = .createUser
     }
     
     override func tearDown(){
@@ -21,27 +20,38 @@ class APIEndpointTests: XCTestCase {
     }
     
     func test_APIEndpoint_SpecifyEndPointName_ShouldFullEqually() {
-        let request : APIEndpoint =  .createUser
+        let request : APIEndpoint = Constants.createUer
         XCTAssertEqual(apiEndPoint,request)
     }
     
     func test_APIEndpoint_SpecifyEndPointFullPath_ShouldFullEqually() {
-        var request : APIEndpoint =  .createUser
+        var request : APIEndpoint =  Constants.createUer
         XCTAssertEqual(apiEndPoint.returnValueFullPath(),request.returnValueFullPath())
     }
     
     
     func test_APIEndpoint_SpecifyEndPointRequest_ShouldFullEqually() {
-        let request : APIEndpoint = .createUser
+        let request : APIEndpoint = Constants.createUer
         XCTAssertEqual(apiEndPoint.request,request.request)
     }
     
     
     func test_APIEndpoint_SpecifyEndPointHttpMethod_ShouldFullEqually() {
-        var request : APIEndpoint = .createUser
+        var request : APIEndpoint = Constants.createUer
         XCTAssertEqual(apiEndPoint.returnHttpMethodsValue(),request.returnHttpMethodsValue())
     }
     
+    
+    func test_APIEndpoint_CheckForEndPointFullPath_ShouldFullEqually() {
+        var loginUser : APIEndpoint = .loginUser
+        var request   : APIEndpoint = .loginUser
+        XCTAssertEqual(loginUser.returnValueFullPath(),request.returnValueFullPath())
+    }
+    
+    func test_APIEndpoint_CheckForEndPointBodyHeaderForLogin_ShouldReturnNotNilTrue() {
+        var loginUser : APIEndpoint = .loginUser
+        XCTAssertNotNil(loginUser.returnBodyHeadersValue(),"If using loginUser enum with header ,Test should return empty")
+    }
     
     
 }

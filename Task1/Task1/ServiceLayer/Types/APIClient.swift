@@ -10,7 +10,7 @@ import Combine
 
 final class APIClient : WebService{
     
-    func createUser() -> AnyPublisher<UserResponse,APIError>{
-        self.sendRequest(.createUser)
+    func createUser(username: String,password: String, email: String) -> AnyPublisher<UserResponse,APIError>{
+        self.sendRequest(.createUser(username, password, email))
     }
 }
